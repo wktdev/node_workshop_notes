@@ -1,0 +1,14 @@
+{
+    "name": "todo_list",
+    "version": "1.0.0",
+    "main": "app.js",
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "express": "*",
+        "express-handlebars": "*",
+        "body-parser": "*",
+        "mongoose": "*"
+    },
+    "description": ""
+}

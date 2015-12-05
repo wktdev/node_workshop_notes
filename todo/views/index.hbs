@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	
+	</head>
+	<!--______________________________________________________BEGIN APP-->
+	<body>
+
+
+
+  <form method="post"  action="client_to_server"> 
+   <input type="text" name="userData"> 
+   <input type="submit"> 
+  </form> 
+  <ul> 
+  {{#each item}} 
+   <li> 
+    <a href="delete/{{this.id}}"> 
+     {{this.task}}: 
+    </a> 
+    <a href="edit/{{this.id}}"> 
+     <b>Edit</b> 
+    </a> 
+   </li> 
+  {{/each}} 
+  </ul> 
+
+
+	</body>
+	<!--______________________________________________________END APP-->
+</html>
